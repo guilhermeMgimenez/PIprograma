@@ -8,6 +8,7 @@ $dado = mysqli_query($conexao, $sql);
 if($dado->num_rows > 0){
     session_start();
     $_SESSION["usuario"] = $usuario;
+    $_SESSION['logged_in'] = true;
     header("location:index.php");
 }else{
     header("location:login.php?msg=invalido");

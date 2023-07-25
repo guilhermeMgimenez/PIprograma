@@ -22,6 +22,7 @@
               </div>
               <hr class="d-grid"> 
               <a class="btn btn-primary" href="criarUsuario.php">registrar-se</a>  
+              <a class="btn btn-primary" href="index.php">sair</a>
               </form>
           </div>
         </div>
